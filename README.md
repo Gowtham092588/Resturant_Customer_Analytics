@@ -66,39 +66,6 @@ Add the project architecture diagram here.
 
 ---
 
-## 🧩 Gold Data Model
-
-### Dimensions
-
-* `DIM_DATE`
-* `DIM_ITEM`
-* `DIM_APP`
-* `DIM_RESTAURANT`
-* `DIM_CUSTOMER`
-
-### Facts
-
-* `FACT_ORDER_ITEMS`
-* `FACT_ORDER_ITEM_OPTIONS`
-* `FACT_CUSTOMER_DAILY`
-
-`DIM_CUSTOMER` uses SCD Type 2 to preserve historical customer attribute changes.
-
----
-
-## 📊 Key Analytics
-
-* Customer Lifetime Value
-* RFM Segmentation
-* Churn Indicators
-* Revenue and Sales Trends
-* Loyalty vs Non-Loyalty Analysis
-* Restaurant Performance
-* Average Order Value
-* Discount Effectiveness
-
----
-
 ## ⚙️ Orchestration & Monitoring
 
 * AWS Glue Workflows manage Bronze → Silver → Gold dependencies.
@@ -111,7 +78,6 @@ Add the project architecture diagram here.
 ## 🚀 CI/CD
 
 GitHub Actions is used to:
-
 * Validate Python and JSON files.
 * Deploy Glue scripts and configuration files to Amazon S3.
 * Update Glue job deployments.
@@ -140,13 +106,10 @@ GitHub Actions is used to:
 * Built quarantine handling for invalid records.
 * Implemented SCD Type 2 customer history.
 * Maintained surrogate keys during incremental updates.
-* Prevented duplicate processing during reruns.
 * Built modular orchestration and failure monitoring.
 
 ---
 
 ## 💻 Author
-
 **Gowtham Kethineni**
-
 [LinkedIn](https://www.linkedin.com/in/gowtham-kethineni)
