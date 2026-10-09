@@ -49,10 +49,6 @@ This project implements a batch-oriented Medallion Architecture using AWS server
 
 Add your project architecture diagram here:
 
-```html
-<img width="YOUR_WIDTH" alt="Restaurant Customer Analytics Architecture"
-src="YOUR_GITHUB_IMAGE_URL" />
-
 ---
 
 ## 🏗️ Bronze → Silver → Gold Architecture
