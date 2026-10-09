@@ -53,6 +53,8 @@ Add your project architecture diagram here:
 <img width="YOUR_WIDTH" alt="Restaurant Customer Analytics Architecture"
 src="YOUR_GITHUB_IMAGE_URL" />
 
+---
+
 ## 🏗️ Bronze → Silver → Gold Architecture
 ## 🟫 Bronze Layer – Incremental Source Ingestion
 - Extracts restaurant transactional data from SQL Server / Amazon RDS using AWS Glue.
