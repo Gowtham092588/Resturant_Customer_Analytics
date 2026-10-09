@@ -1,1 +1,1 @@
-# GlobalPartners_Business_Analytics_AWS
+# Resturant Customer Analytics AWS
